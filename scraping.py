@@ -7,7 +7,6 @@ import datetime as dt
 
 def scrape_all():
 
-    print("hello")
     # Initiate headless driver for deployment
     executable_path = {'executable_path': ChromeDriverManager().install()}
     browser = Browser('chrome', **executable_path, headless=True)
